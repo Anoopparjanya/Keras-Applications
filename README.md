@@ -67,7 +67,7 @@ python classify_image.py --image images/tiger.jpg --model resnet
 ```
 The above commands will train CNN - Xception architecture mode
 
-![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/Xception.png)
+![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/Xception_Prediction.png)
 
 # MobileNet
 
@@ -76,7 +76,7 @@ python classify_image.py --image images/tiger.jpg --model resnet
 ```
 The above commands will train CNN - MobileNet architecture mode
 
-![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/MobileNet.png)
+![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/MobileNet_Prediction.png)
 
 
 On testing all the above architectures,xception gives the best accuracy and the least accuracy by MobileNet
