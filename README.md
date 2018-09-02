@@ -33,6 +33,8 @@ python classify_image.py --image images/tiger.jpg --model vgg16
 ```
 The above commands will train CNN - VGG16 architecture model
 
+![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
+
 # VGG19
 
 ```bash
@@ -40,20 +42,37 @@ python classify_image.py --image images/tiger.jpg --model vgg19
 ```
 The above commands will train CNN - VGG19 architecture mode
 
+![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
+
 # resnet50
 
 ```bash
 python classify_image.py --image images/tiger.jpg --model resnet
 ```
-The above commands will train CNN - VGG19 architecture mode
+The above commands will train CNN - Resnet50 architecture mode
 
-once the model is trainned successfully,run the following command to test the model.
+![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
+
+# InceptionV3
+
 ```bash
-python classify.py --model flowers.model --labelbin lb.pickle --image examples/rose.png
+python classify_image.py --image images/tiger.jpg --model resnet
 ```
-I have got 100% accuracy when i test my model.
+The above commands will train CNN - InceptionV3 architecture mode
 
+![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
+
+# Xception
+
+```bash
+python classify_image.py --image images/tiger.jpg --model resnet
+```
+The above commands will train CNN - Xception architecture mode
 
 ![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
 
 
+On testing all the above architectures,xception gives the best accuracy.
+
+
+# Differences between all the above applications.
