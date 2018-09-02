@@ -33,7 +33,6 @@ python classify_image.py --image images/tiger.jpg --model vgg16
 ```
 The above commands will train CNN - VGG16 architecture model
 
-![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
 
 # VGG19
 
@@ -42,7 +41,6 @@ python classify_image.py --image images/tiger.jpg --model vgg19
 ```
 The above commands will train CNN - VGG19 architecture mode
 
-![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
 
 # resnet50
 
@@ -51,7 +49,7 @@ python classify_image.py --image images/tiger.jpg --model resnet
 ```
 The above commands will train CNN - Resnet50 architecture mode
 
-![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
+![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/Resnet_Prediction.png)
 
 # InceptionV3
 
@@ -60,7 +58,7 @@ python classify_image.py --image images/tiger.jpg --model resnet
 ```
 The above commands will train CNN - InceptionV3 architecture mode
 
-![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
+![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/Inception_Prediction.png)
 
 # Xception
 
@@ -69,10 +67,21 @@ python classify_image.py --image images/tiger.jpg --model resnet
 ```
 The above commands will train CNN - Xception architecture mode
 
-![alt text](https://github.com/Anoopparjanya/Image_Classification/blob/master/Flower_prediction.png)
+![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/Xception.png)
+
+# MobileNet
+
+```bash
+python classify_image.py --image images/tiger.jpg --model resnet
+```
+The above commands will train CNN - MobileNet architecture mode
+
+![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/MobileNet.png)
 
 
-On testing all the above architectures,xception gives the best accuracy.
+On testing all the above architectures,xception gives the best accuracy and the least accuracy by MobileNet
 
 
 # Differences between all the above applications.
+
+![alt text](https://github.com/Anoopparjanya/Keras-Applications/blob/master/keras-networks/Predictions/comparision.png)
