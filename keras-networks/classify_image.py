@@ -7,6 +7,7 @@ from keras.applications import InceptionV3
 from keras.applications import Xception # TensorFlow ONLY
 from keras.applications import VGG16
 from keras.applications import VGG19
+from keras.applications import MobileNet
 from keras.applications import imagenet_utils
 from keras.applications.inception_v3 import preprocess_input
 from keras.preprocessing.image import img_to_array
@@ -31,7 +32,8 @@ MODELS = {
 	"vgg19": VGG19,
 	"inception": InceptionV3,
 	"xception": Xception, # TensorFlow ONLY
-	"resnet": ResNet50
+	"resnet": ResNet50,
+	"mobilenet": MobileNet
 }
 
 # esnure a valid model name was supplied via command line argument
