@@ -54,7 +54,7 @@ The above commands will train CNN - Resnet50 architecture mode
 # InceptionV3
 
 ```bash
-python classify_image.py --image images/tiger.jpg --model resnet
+python classify_image.py --image images/tiger.jpg --model inception
 ```
 The above commands will train CNN - InceptionV3 architecture mode
 
@@ -63,7 +63,7 @@ The above commands will train CNN - InceptionV3 architecture mode
 # Xception
 
 ```bash
-python classify_image.py --image images/tiger.jpg --model resnet
+python classify_image.py --image images/tiger.jpg --model xception
 ```
 The above commands will train CNN - Xception architecture mode
 
@@ -72,7 +72,7 @@ The above commands will train CNN - Xception architecture mode
 # MobileNet
 
 ```bash
-python classify_image.py --image images/tiger.jpg --model resnet
+python classify_image.py --image images/tiger.jpg --model mobilenet
 ```
 The above commands will train CNN - MobileNet architecture mode
 
